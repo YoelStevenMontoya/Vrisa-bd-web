@@ -1,0 +1,30 @@
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de configuración local / secretos
+*.env
+backend/.env
+frontend/.env
+
+# Django: archivos generados
+staticfiles/
+media/
+
+# --- Node / React ---
+frontend/node_modules/
+frontend/build/
+
+# --- VSCode ---
+.vscode/
+
+# --- Docker / otros ---
+db_data/
+*.pid
